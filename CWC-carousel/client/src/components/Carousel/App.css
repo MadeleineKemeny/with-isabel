@@ -2,4 +2,11 @@ button {
     color: white;
     height: 100%;
     vertical-align: center;
+
+}
+
+li.slide.selected, li.slide {
+    background-color: none;
+    padding: 0;
+
 }
