@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(83, 6, 6);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dropdown-menu.show,
+li {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(83, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(215, 219, 166);
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(215, 219, 166);
+    text-decoration-line: none;
+    line-height: 12px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    line-height: 12px;
+}
+
+.navbar {
+    background-color: rgb(83, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(215, 219, 166);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link {
+    background-color: rgb(83, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(215, 219, 166);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CWClogo {
+    position: absolute;
+    width: auto;
+    top: 14.5%;
+    left: 2%;
+    z-index: 3;
+    float: left;
+}
+
+#container {
+
+    float: right;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    height: 80%;
+    /* right: 15%; */
+    top: 50%;
+    /* bottom: 15%; */
+    transform: translateY(-50%);
+    margin: none;
+    /* z-index: 3; */
+}
+
+#root {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    margin: none;
+    height: calc(100vh - 176px);
+    position: absolute;
+    top: 88px;
+}
+
+#message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.card {
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto;
+}
+
+.card-title {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin-top: 0px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    width: auto;
+}
+
+.card-text {
+    padding: 15 0px;
+    font-size: 12px;
+    text-align: left;
+    color: black;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.card-link {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(152, 11, 180);
+}
+
+.form-row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.scroll {
+    height: 585px;
+    overflow-y: scroll;
+}
